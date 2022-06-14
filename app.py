@@ -37,7 +37,7 @@ def mnist():
         return render_template('mnist_result.html', img=name, pred=pred)
 
 
-
+# 테스트
 
 # @app.route('/test/')
 # def test():
