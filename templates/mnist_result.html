@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+    <br><br>
+    <img src='/static/data/{{img}}'>
+    <br>
+    <h1>예측 결과는 {{pred[0]}} 입니다.</h1>
+    <br>
+    <a class="btn btn-primary" href="/mnist/">back</a>
+</div>
+{% endblock body %}
+

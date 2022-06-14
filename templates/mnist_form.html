@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+    <br><br>
+    <form action="/mnist/" method='POST' enctype="multipart/form-data">
+        <div>
+            <label for="formFileLg" class="form-label">File Input</label>
+            <input class="form-control form-control-lg" id="formFileLg" type="file" name="mnist_file">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock body %}
+
